@@ -78,6 +78,7 @@ We can also add links inside images: *_image::link[alt text, link]_*
 . link::/index.html[Main Document]
 
 == Glossary Terms
+[#glossary]
 Term 1::
     Definition 1
 Term 2::
