@@ -1,0 +1,86 @@
+== Basic Text Formating ==
+[#text-formating]
+*This is a bold text* +
+_This text is italic_ +
+*_This text is bold and italic_* +
+Pass through text +++*Asterix*+++ +
+[red]#This is a colored text#
+
+== Line and Paragraph Breaks ==
+[#paragraph]
++++ + +++ breakes line +
+This line breaks at the edn of this sentence +
+This other line will also break +
+But this is the last line.
+
+To make a new paragraph, just add an extra line by clicking twice at the end of your last sentence.
+
+Here is a new paragaraph that begins.
+
+== Headings ==
+[#heading]
++++ = +++ Top level heading +
++++ == +++ Second level heading +
++++ === +++ Third level heading +
++++ ... +++ and so on. +
++++ :toc: +++ allows you to create the table of contents (toc) 
+
+== Action Sequencing ==
+[#sequences]
+*Action 1 -> Action 2 -> Action 3* Bolded sequence +
+Action 1 -> Action 2 -> Action 3 Non-bolded sequence
+
+== Lists ==
+[#lists]
+.Bulleted List
+[#unordered-list]
+
+* Edgar Allan Poe
+* Sheri S. Tepper
+    - Raoul
+    - Jean
+** Bill Bryson
+*** Jane Doe
+
+.Ordered List
+[#ordered-list]
+
+. Number
+. Number 
+.. loweralpha
+... lowerroman
+
+.List with text
+[#list-text]
+. Item 1
++ 
+To add some text under an item in a list, go to the next line and print a +++ + +++ sign. If you +
+do not do it, the text will not be align under the list item and your list will resume to 1 on the next list item. +
+As a example on how it works just see above.
+. Item 2
+
+== Images
+[#images]
+syntax *_image::link[alt text]_* +
+Screenshots should be less than 1050px.+
+We can also add links inside images: *_image::link[alt text, link]_*
+
+== Linkages
+[#linkage]
+.Same Document
+. <<anchor, Click here!>>
+. +++ [[anchor]] +++ under the target
+
+.Another URL on the Internet
+. http://www.google.com[Google Search]
+
+.Another Document in The Same Directory
+. link::/index.html[Main Document]
+
+== Glossary Terms
+Term 1::
+    Definition 1
+Term 2::
+    definition 2
+
+
